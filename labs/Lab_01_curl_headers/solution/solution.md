@@ -4,7 +4,6 @@
 |  -4 ``--ipv4``   | This option tells curl to use IPv4 addresses only when resolving host names, and not for example try IPv6.                 |
 | -v ``--verbose`` | Makes curl verbose during the operation. Useful for debugging and seeing what's going on "under the hood".                 |
 |  -I ``--head``   | Fetch the headers only! HTTP-servers feature the command HEAD which this uses to get nothing but the header of a document. |
-|                  |                                                                                                                            |
 ___
 ## Site: [RGUPS](https://www.rgups.ru)
 #### Results for: rgups.ru
