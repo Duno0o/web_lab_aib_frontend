@@ -4,6 +4,7 @@
 |  -4 ``--ipv4``   | This option tells curl to use IPv4 addresses only when resolving host names, and not for example try IPv6.                 |
 | -v ``--verbose`` | Makes curl verbose during the operation. Useful for debugging and seeing what's going on "under the hood".                 |
 |  -I ``--head``   | Fetch the headers only! HTTP-servers feature the command HEAD which this uses to get nothing but the header of a document. |
+
 ___
 ## Site: [RGUPS](https://www.rgups.ru)
 #### Results for: rgups.ru
@@ -217,6 +218,7 @@ ___
 > - Protocol: ``HTTP/1.1``
 > - Use SSL: ``TLSv1.2``
 
+___
 ## Site: [Github](https://github.com/)
 #### Results for: https://github.com/
 > __Use:__
@@ -334,6 +336,7 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+___
 ## Site: [RZD](https://www.rzd.ru/)
 #### Results for: https://www.rzd.ru/
 > __Use:__
@@ -425,6 +428,7 @@ ___
 > - Protocol: ``HTTP/1.1``
 > - Use SSL: ``TLSv1.2``
 
+___
 ## Site: [yandex](https://yandex.ru/)
 #### Results for: https://yandex.ru/
 > __Use:__
@@ -539,6 +543,7 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+___
 ## Site: [python](https://www.python.org/)
 #### Results for: https://www.python.org/
 > __Use:__
@@ -643,6 +648,7 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+___
 ## Site: [GIT](https://git-scm.com/)
 #### Results for: https://git-scm.com/
 > __Use:__
@@ -757,6 +763,7 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+___
 ## Site: [jetbrains](https://www.jetbrains.com/)
 #### Results for: https://www.jetbrains.com/
 > __Use:__
@@ -877,6 +884,7 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+___
 ## Site: [VSC](https://code.visualstudio.com/)
 #### Results for: https://code.visualstudio.com/
 > __Use:__
@@ -980,3 +988,5 @@ ___
 > - Response code: ``200 - OK. The client's request was completed successfully.``
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.2``
+___
+![alt](memes.png)
