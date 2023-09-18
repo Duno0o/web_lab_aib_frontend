@@ -414,6 +414,7 @@ __Код:__
 </table></div>
 ```
 </details>
+
 ![alt](memes.png)
 </details>
 
