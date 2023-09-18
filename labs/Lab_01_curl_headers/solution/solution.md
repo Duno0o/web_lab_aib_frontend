@@ -7,7 +7,9 @@
 
 ___
 ## Site: [RGUPS](https://www.rgups.ru)
-#### Results for: rgups.ru
+<details>
+  <summary>Results for: rgups.ru</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI rgups.ru
@@ -49,7 +51,11 @@ ___
 > - Response code: ``301 - the page has been permanently moved to a different address``
 > - Protocol: ``HTTP/1.1``
 
-#### Results for: www.rgups.ru
+</details>
+
+<details>
+  <summary>Results for: www.rgups.ru</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI www.rgups.ru
@@ -91,7 +97,11 @@ ___
 > - Response code: ``301 - the page has been permanently moved to a different address``
 > - Protocol: ``HTTP/1.1``
 
-#### Results for: http://rgups.ru
+</details>
+
+<details>
+  <summary>Results for: http://rgups.ru</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI http://rgups.ru
@@ -134,7 +144,11 @@ ___
 > - Response code: ``301 - the page has been permanently moved to a different address``
 > - Protocol: ``HTTP/1.1``
 
-#### Results for: https://rgups.ru
+</details>
+
+<details>
+  <summary>Results for: https://rgups.ru</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI https://rgups.ru
@@ -147,7 +161,7 @@ ___
 > * Connected to rgups.ru (80.72.224.90) port 443 (#0)
 > * ALPN: offers h2
 > * ALPN: offers http/1.1
-> *  CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+> *  CAfile: X:/X/X/mingw64/ssl/certs/ca-bundle.crt
 > *  CApath: none
 > } [5 bytes data]
 > * [CONN-0-0][CF-SSL] TLSv1.3 (OUT), TLS handshake, Client hello (1):
@@ -191,7 +205,7 @@ ___
 > < Content-Type: text/html; charset=utf-8
 > < Connection: keep-alive
 > < X-Powered-By: ProcessWire CMS
-> < Set-Cookie: wire=92eb111ea5f181104gg4a818e1e4171a; path=/; HttpOnly; SameSite=Lax
+> < Set-Cookie: wire=XXXX; path=/; HttpOnly; SameSite=Lax
 > < Expires: Thu, 19 Nov 1981 08:52:00 GMT
 > < Cache-Control: no-store, no-cache, must-revalidate
 > < Pragma: no-cache
@@ -202,7 +216,7 @@ ___
 > Content-Type: text/html; charset=utf-8
 > Connection: keep-alive
 > X-Powered-By: ProcessWire CMS
-> Set-Cookie: wire=92eb111ea5f181104gg4a818e1e4171a; path=/; HttpOnly; SameSite=Lax
+> Set-Cookie: wire=XXX; path=/; HttpOnly; SameSite=Lax
 > Expires: Thu, 19 Nov 1981 08:52:00 GMT
 > Cache-Control: no-store, no-cache, must-revalidate
 > Pragma: no-cache
@@ -218,9 +232,14 @@ ___
 > - Protocol: ``HTTP/1.1``
 > - Use SSL: ``TLSv1.2``
 
+</details>
+
 ___
 ## Site: [Github](https://github.com/)
-#### Results for: https://github.com/
+
+<details>
+  <summary>Results for: https://github.com/</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI https://github.com/
@@ -298,11 +317,11 @@ ___
 > < x-xss-protection: 0
 > < referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 > < content-security-policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ wss://*.actions.githubusercontent.com github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com github.githubassets.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com support.github.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
-> < set-cookie: _gh_sess=cvs5niY223anhp6t%2Fi6a28H5wZRgU6qDFjwNN7v4uMm87YLXNbXARiuGC%2BOCSYIQqNajnj549SFNXPgxCeQ534534rte%2FQ3%2FuC288orWRiEhvMZKvxiuDlXO%2Bcl0QUMGHM6MVKJrQR9TdlFsYDZmeirb9y9Mwe8e6zjCEq1x2UHikowobPDiDTmZbfW92GxAIv5WT9XUqpPcaqgYocE345345AEOptn%2BWylIw7MZoh9%2Fq123123qXOjd6r47cfFWM6aNReUBJ3VQ2rrZIQ%3D%3asddasdiZR%2BT2vfIqJ--3mrwqYLBDH6ZXL4znawvAQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+> < set-cookie: _gh_sess=XXXXXX; Path=/; HttpOnly; Secure; SameSite=Lax
 > < set-cookie: _octo=GH1.1.545388337.1694545417; Path=/; Domain=github.com; Expires=Thu, 12 Sep 2024 19:03:37 GMT; Secure; SameSite=Lax
 > < set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 12 Sep 2024 19:03:37 GMT; HttpOnly; Secure; SameSite=Lax
 > < accept-ranges: bytes
-> < x-github-request-id: 1366:7C92:7022B39:719AD82:6500B609
+> < x-github-request-id: XXXXX
 > <
 >   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/2 200
 > server: GitHub.com
@@ -318,11 +337,11 @@ ___
 > x-xss-protection: 0
 > referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 > content-security-policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ wss://*.actions.githubusercontent.com github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com github.githubassets.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com support.github.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
-> set-cookie: _gh_sess=cvs5niY223anhp64534534345ZRgU6qDFjwNN7v4uMm87YLXNbXARiuGC%2BOCSYIQqNajnj549SFNXPgxCeQLO8pOxJ5aD%2FQ3%2FuC288orWRiEhvMZKvxiuDlXO%2Bcl0QUMGHM6MVKerterterter5462meiertetrterEq1x2UHikowobPDiDTmZbfW92GxAIv5WT9XUqpPcaqgYocEaH832trtrh67jeddddgdwwWylIw7MZoh9%2FqnnxqXOjd6r47cfFWM6aNReUBJ3VQ2rLki2CrZIQ%3D%3D--SI7SKiZR%2BT2vfIqJ--3mrwqYLBDH6ZXL4znawvAQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+> set-cookie: _gh_sess=cvXXXX3D; Path=/; HttpOnly; Secure; SameSite=Lax
 > set-cookie: _octo=GH1.1.345384237.1694145417; Path=/; Domain=github.com; Expires=Thu, 12 Sep 2024 19:03:37 GMT; Secure; SameSite=Lax
 > set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 12 Sep 2024 19:03:37 GMT; HttpOnly; Secure; SameSite=Lax
 > accept-ranges: bytes
-> x-github-request-id: 1366:7C92:7011249:719A222:650022209
+> x-github-request-id: XXXX
 > 
 >```
 >
@@ -336,9 +355,14 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+</details>
+
 ___
 ## Site: [RZD](https://www.rzd.ru/)
-#### Results for: https://www.rzd.ru/
+
+<details>
+  <summary>Results for: https://www.rzd.ru/</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI --User-agent "Google" https://www.rzd.ru/
@@ -401,7 +425,7 @@ ___
 > < Strict-Transport-Security: max-age=15724800; includeSubDomains
 > < Via: nginx3
 > < X-Frame-Options: sameorigin
-> < Set-Cookie: session-cookie=17843d1f1212121212121212121212b105e7c1813046ac6344b6e1483096df6fb530e483da81de641f1b; Max-Age=86400; Path=/; secure; HttpOnly
+> < Set-Cookie: session-cookie=17XXXXXXXb; Max-Age=86400; Path=/; secure; HttpOnly
 > < X-XSS-Protection: 1; mode=block
 > <
 >   0  205k    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0HTTP/1.1 200
@@ -410,11 +434,11 @@ ___
 > Connection: keep-alive
 > Date: Tue, 12 Sep 2023 19:22:46 GMT
 > Vary: Accept-Encoding
-> X-UCM-Pod-Name: inex-ucm-776111f9d-p27lc
+> X-UCM-Pod-Name: inex-ucm-7XXXXXXd-p27lc
 > Strict-Transport-Security: max-age=15724800; includeSubDomains
 > Via: nginx3
 > X-Frame-Options: sameorigin
-> Set-Cookie: session-cookie=17843d1f1212121212121212121212b105e7c1813046ac6344b6e1483096df6fb530e483da81de641f1b; Max-Age=86400; Path=/; secure; HttpOnly
+> Set-Cookie: session-cookie=17XXXXXXX1b; Max-Age=86400; Path=/; secure; HttpOnly
 > X-XSS-Protection: 1; mode=block
 >```
 >
@@ -428,9 +452,14 @@ ___
 > - Protocol: ``HTTP/1.1``
 > - Use SSL: ``TLSv1.2``
 
+</details>
+
 ___
 ## Site: [yandex](https://yandex.ru/)
-#### Results for: https://yandex.ru/
+
+<details>
+  <summary>Results for: https://yandex.ru/</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI https://yandex.ru/
@@ -504,11 +533,11 @@ ___
 > < portal: Home
 > < set-cookie: is_gdpr=0; Path=/; Domain=.yandex.ru; Expires=Thu, 11 Sep 2025 19:29:30 GMT
 > < set-cookie: is_gdpr_b=COj6IhCGzgEoAg; Path=/; Domain=.yandex.ru; Expires=Thu, 11 Sep 2025 19:29:30 GMT
-> < set-cookie: _yasc=WpMMZRFhovTxjiH63o/z1AkdITZD+ECG+6O24czLW4er3UCrhqTAgKJaUsQFtx05UGnF; domain=.yandex.ru; path=/; expires=Fri, 09 Sep 2033 19:29:30 GMT; secure
-> < set-cookie: i=62tB50hYb32FPQm+rlyb3xjjtJCVH/ktRvwzJUG4VdKFLfEdZ+ZQq4xXxM1t7mXxvqXaAU+yBE8SseTJCyCtBSOI0/s=; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly
-> < set-cookie: yandexuid=7836185621694546970; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure
+> < set-cookie: _yasc=WXXXXXXXXXXXXXnF; domain=.yandex.ru; path=/; expires=Fri, 09 Sep 2033 19:29:30 GMT; secure
+> < set-cookie: i=62tXXXXSseTJCyCtBSOI0/s=; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly
+> < set-cookie: yandexuid=X836XXXXX70; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure
 > < p3p: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
-> < x-yandex-req-id: 1694546970075759-3709805628383618562-balancer-l7leveler-kubr-yp-sas-89-BAL-1771
+> < x-yandex-req-id: 1694XXXX9-XXXX9805XXXXX2-balancer-l7leveler-kubr-yp-sas-89-BAL-1771
 > < accept-ch: Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT
 > < report-to: { "group": "network-errors", "max_age": 100, "endpoints": [{"url": "https://dr.yandex.net/nel", "priority": 1}, {"url": "https://dr2.yandex.net/nel", "priority": 2}]}
 > < cache-control: max-age=1209600,private
@@ -522,11 +551,11 @@ ___
 > portal: Home
 > set-cookie: is_gdpr=0; Path=/; Domain=.yandex.ru; Expires=Thu, 11 Sep 2025 19:29:30 GMT
 > set-cookie: is_gdpr_b=COj6IhCGzgEoAg; Path=/; Domain=.yandex.ru; Expires=Thu, 11 Sep 2025 19:29:30 GMT
-> set-cookie: _yasc=WpMMZRFhovTxjiH6234234234CG+6O24czLW4er3UCrhqTAgKJaUsQFtx05UGnF; domain=.yandex.ru; path=/; expires=Fri, 09 Sep 2033 19:29:30 GMT; secure
-> set-cookie: i=62tB50hYb32FPQm+rly23JCVH/kt2342345G4VdKFLfEdZ+ZQq4xXxM1t7mXxvqXaAU+yBE8SseTJCyCtBSOI0/s=; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly
-> set-cookie: yandexuid=7836185621694546970; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure
+> set-cookie: _yasc=WpXXXX; domain=.yandex.ru; path=/; expires=Fri, 09 Sep 2033 19:29:30 GMT; secure
+> set-cookie: i=62tB50XXXX/s=; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly
+> set-cookie: yandexuid=7XXXXXX970; Expires=Thu, 11-Sep-2025 19:29:30 GMT; Domain=.yandex.ru; Path=/; Secure
 > p3p: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
-> x-yandex-req-id: 1694546970075759-3709805628383618562-balancer-l7leveler-kubr-yp-sas-89-BAL-1771
+> x-yandex-req-id: 1XXXX59-X7098XXXX8562-balancer-l7leveler-kubr-yp-sas-89-BAL-1771
 > accept-ch: Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT
 > report-to: { "group": "network-errors", "max_age": 100, "endpoints": [{"url": "https://dr.yandex.net/nel", "priority": 1}, {"url": "https://dr2.yandex.net/nel", "priority": 2}]}
 > cache-control: max-age=1209600,private
@@ -543,9 +572,14 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+</details>
+
 ___
 ## Site: [python](https://www.python.org/)
-#### Results for: https://www.python.org/
+
+<details>
+  <summary>Results for: https://www.python.org/</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI https://www.python.org/
@@ -648,9 +682,14 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+</details>
+
 ___
 ## Site: [GIT](https://git-scm.com/)
-#### Results for: https://git-scm.com/
+
+<details>
+  <summary>Results for: https://git-scm.com/</summary>
+  
 > __Use:__
 > ```shell
 > curl -4vI https://git-scm.com/
@@ -763,9 +802,14 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+</details>
+
 ___
 ## Site: [jetbrains](https://www.jetbrains.com/)
-#### Results for: https://www.jetbrains.com/
+
+<details>
+  <summary>Results for: https://www.jetbrains.com/</summary>
+
 > __Use:__
 > ```shell
 > curl -4vI https://www.jetbrains.com/
@@ -884,9 +928,14 @@ ___
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.3``
 
+</details>
+
 ___
 ## Site: [VSC](https://code.visualstudio.com/)
-#### Results for: https://code.visualstudio.com/
+
+<details>
+  <summary>Results for: https://code.visualstudio.com/</summary>
+
 > __Use:__
 > ```shell
 > curl -4vI https://code.visualstudio.com/
@@ -950,7 +999,7 @@ ___
 > < content-length: 50213
 > < content-type: text/html; charset=utf-8
 > < accept-ranges: bytes
-> < etag: W/"c425-XBxswsHoV0dlJCAKuBbwZ9s5rjQ"
+> < etag: W/"c425-XBxswsHoV0xCAKuBXXX9s5rjQ"
 > < strict-transport-security: max-age=31536000; includeSubDomains
 > < content-security-policy: frame-ancestors 'self'
 > < x-frame-options: SAMEORIGIN
@@ -958,7 +1007,7 @@ ___
 > < x-content-type-options: nosniff
 > < x-content-type-options: nosniff
 > < x-powered-by: ASP.NET
-> < x-azure-ref: 0UsAAZQAAAAAS4lPNayMuTpFobe1x87SIU1RPRURHRTE4MTAAYmU4N2RjNmQtNDBmOS00NWIwLTg4MTAtOTkxMDg3ZWY4YjI5
+> < x-azure-ref: 0UsAAZQAAAAAS4lPNayXXXXXXXXX4MTAAYmU4N2RjNmQtNDBmOS00NWIwLTg4MTAtOTkxMDg3ZWY4YjI5
 > < x-cache: CONFIG_NOCACHE
 > < date: Tue, 12 Sep 2023 19:47:29 GMT
 > <
@@ -974,7 +1023,7 @@ ___
 > x-content-type-options: nosniff
 > x-content-type-options: nosniff
 > x-powered-by: ASP.NET
-> x-azure-ref: 0UsAAZQAAAAAS4lPNayMuTpFobe1x87SIU1RPRURHRTE4MTAAYmU4N2RjNmQtNDBmOS00NWIwLTg4MTAtOTkxMDg3ZWY4YjI5
+> x-azure-ref: 0UsAAZQAAAAAS4xMuTpFobe1XXXXXXXXXXXMTAAYmU4N2RjNmQtNDBmOS00NWIwLTg4MTAtOTkxMDg3ZWY4YjI5
 > x-cache: CONFIG_NOCACHE
 > date: Tue, 12 Sep 2023 19:47:29 GMT
 >```
@@ -988,5 +1037,9 @@ ___
 > - Response code: ``200 - OK. The client's request was completed successfully.``
 > - Protocol: ``HTTP/2``
 > - Use SSL: ``TLSv1.2``
+
+</details>
+
 ___
+
 ![alt](memes.png)
