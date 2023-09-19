@@ -181,12 +181,11 @@ https://www.rgups.ru/ajax/schedule.php?action=timetable&fac-id=1&course-id=3&gro
   <summary>Что содержится в теле ответа</summary>
 
 - Таблица с моим расписанием(?)
+- Код:
+<details> 
+	<summary>Response</summary>
 
-### Код:
-<details>
-  <summary>Response</summary>
-
-```
+```html
 <div class="schedule-section">
 					<div class="schedule-section-legend"><i></i> – в режиме видеоконференцсвязи</div>
     		
@@ -415,13 +414,14 @@ https://www.rgups.ru/ajax/schedule.php?action=timetable&fac-id=1&course-id=3&gro
 ```
 </details>
 
-![alt](memes.png)
 </details>
 
 <details>
   <summary>Какого типа запрос вы выполнили?</summary>
 
 - GET
+
+![alt](memes.png)
 </details>
 
 <details>
