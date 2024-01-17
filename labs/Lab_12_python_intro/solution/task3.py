@@ -1,31 +1,12 @@
-def main(line):
-    mx = 0
-    slovar = {}
-    for item in line:
-        if item == ' ':
-            continue
-        if item in slovar:
-            slovar[item] += 1
-            mx = max(mx, slovar[item])
-        else:
-            slovar[item] = 1
+def to_characters_histogram(text: str):
+    chars = {}
+    for char in filter(lambda char: not char.isspace(), text):
+        chars.update({char : chars.get(char, 0) + 1})
+    sorted_columns = sorted(chars.items())
+    max_height = max(chars.values())
+    sorted_text_columsn = "\n".join("".join(["#" if height <= column[1] else " " for column in sorted_columns]) for height in range(max_height, 0, -1))
+    return sorted_text_columsn + "\n" + "".join([column[0] for column in sorted_columns])
 
-    ch = list(slovar.keys())
-    ch.sort()
-    i = mx
-    while i > 0:
-        str = ""
-        for item in ch:
-            if slovar[item] >= i:
-                str += '#'
-            else:
-                str += ' '
-        print(str)
-        i -= 1
-    for c in ch:
-        print(c, end='')
-
-
-if __name__=='__main__':
-    line = input()
-    main(line)
+if __name__ == '__main__':
+    text = input()
+    print(to_characters_histogram(text))
