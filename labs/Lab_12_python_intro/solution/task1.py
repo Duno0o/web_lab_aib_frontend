@@ -1,15 +1,11 @@
-def count_routes(N, M):
-    mas = [[0] * (M+1) for _ in range(N+1)]
-    mas[1][1] = 1
-
-    for i in range(2, N + 1):
-        for j in range(2, M + 1):
-            mas[i][j] = mas[i - 1][j - 2] + mas[i - 2][j - 1]
-
-    return mas[N][M]
-
+def quantity(N, M):
+    board = [[0] * M for _ in range(N)]
+    board[0][0] = 1
+    for i in range(N):
+        for j in range(M):
+            board[i][j] += board[i - 2][j - 1] if i - 2 >= 0 and j - 1 >= 0 else 0
+            board[i][j] += board[i - 1][j - 2] if i - 1 >= 0 and j - 2 >= 0 else 0
+    return board[N - 1][M - 1]
 if __name__ == '__main__':
-    N = int(input("Введите количество строк N : "))
-    M = int(input("Введите количество столбцов M : "))
-    result = count_routes(N, M)
-    print("Количество различных маршрутов: ", result)
+    N, M = map(int, input().split())
+    print(quantity(N, M))

@@ -1,18 +1,31 @@
-def histogram(text):
-    char_count = {}
-    for char in text:
-        if char != ' ' and char != '\n':
-            char_count[char] = char_count.get(char, 0) + 1
+def main(line):
+    mx = 0
+    slovar = {}
+    for item in line:
+        if item == ' ':
+            continue
+        if item in slovar:
+            slovar[item] += 1
+            mx = max(mx, slovar[item])
+        else:
+            slovar[item] = 1
 
-    sorted_chars = sorted(char_count.keys())
+    ch = list(slovar.keys())
+    ch.sort()
+    i = mx
+    while i > 0:
+        str = ""
+        for item in ch:
+            if slovar[item] >= i:
+                str += '#'
+            else:
+                str += ' '
+        print(str)
+        i -= 1
+    for c in ch:
+        print(c, end='')
 
-    max_count = max(char_count.values())
 
-    for char in sorted_chars:
-        count = char_count[char]
-        histogram_line = '#' * count
-        histogram_line += ' ' * (max_count - count)
-        print(histogram_line + ' ' + char)
-
-encrypted_text = input("Введите зашифрованный текст: ")
-histogram(encrypted_text)
+if __name__=='__main__':
+    line = input()
+    main(line)
